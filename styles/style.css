@@ -60,6 +60,8 @@ header {
 }
 .banner-img img {
   width: 100%;
+  position: relative;
+bottom: -3px;
 }
 
 .banner-content p {
