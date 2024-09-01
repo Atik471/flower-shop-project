@@ -78,7 +78,7 @@ header {
   }
 }
 
-.banner-content button {
+.primary-btn{
   border-radius: 8px;
   padding: 1.3rem 2.7rem;
   background: rgb(229, 84, 115);
@@ -90,11 +90,11 @@ header {
   color: white;
   transition: all 0.2s ease-in-out;
 }
-.banner-content button:hover {
+.primary-btn:hover {
   background: rgb(228, 44, 84);
 }
 @media screen and (max-width: 768px) {
-  .banner-content button {
+  .primary-btn {
     font-size: 1.1rem;
     padding: 1rem 2rem;
     line-height: 1.1rem;
@@ -227,7 +227,7 @@ cursor: pointer;
 /* support section styles */
 .support{
     display: flex;
-    margin: 6rem 10%;
+    margin: 2.5rem 10%;
     gap: 5rem;
     justify-content: center;
     border-radius: 8px;
@@ -270,3 +270,84 @@ line-height: 1.6rem;
       line-height: 1.1rem;
     }
   }
+
+/* offer section style */
+.offer{
+    display: flex;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 5rem 20%;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 6rem 0px;
+}
+@media screen and (max-width: 768px) {
+    .offer{
+      flex-direction: column;
+      padding: 2rem 10%;
+    gap: 4rem;
+    margin: 3rem 0px;
+    }
+  }
+
+.offer-content{
+    width: 80%;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .offer-content{
+      width: 100%;
+    }
+  }
+
+.offer-img{
+    width: 30%;
+}
+@media screen and (max-width: 768px) {
+    .offer-img{
+      width: 100%;
+    }
+    .offer-img img{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+  }
+
+.offer-content h1{
+    font-size: 2.5rem;
+font-weight: 800;
+line-height: 3rem;
+letter-spacing: 0%;
+margin-bottom: 2rem;
+}
+.offer-content span{
+    color: #E55473;
+}
+@media screen and (max-width: 768px) {
+    .offer-content h1{
+        font-size: 2rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+    letter-spacing: 0%;
+    margin-bottom: 1.5rem;
+    }
+}
+
+.offer-content p{
+    color: rgba(39, 39, 39, 0.6);
+font-size: 1.1rem;
+font-weight: 400;
+line-height: 1.9rem;
+letter-spacing: 0%;
+margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+    .offer-content p{
+        font-size: 1rem;
+font-weight: 400;
+line-height: 1.5rem;
+letter-spacing: 0%;
+margin-bottom: 1.5rem;
+    }
+}
