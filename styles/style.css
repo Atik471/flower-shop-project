@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #e554731a;
+}
+
+.banner {
+  display: flex;
+  padding: 3rem 10% 0;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    padding: 2rem 1.5rem 0;
+    gap: 2.5rem;
+  }
+}
+
+.banner-content {
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  .banner-content {
+    width: 100%;
+  }
+}
+
+.banner-content h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 6rem;
+  letter-spacing: 0%;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .banner-content h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.banner-img {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .banner-img {
+    width: 100%;
+  }
+}
+.banner-img img {
+  width: 100%;
+}
+
+.banner-content p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0%;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .banner-content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.banner-content button {
+  border-radius: 8px;
+  padding: 1.3rem 2.7rem;
+  background: rgb(229, 84, 115);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.banner-content button:hover {
+  background: rgb(228, 44, 84);
+}
+@media screen and (max-width: 768px) {
+  .banner-content button {
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    line-height: 1.1rem;
+  }
+}
