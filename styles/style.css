@@ -7,10 +7,10 @@
   padding: 0;
 }
 
+/* header section style */
 header {
   background: #e554731a;
 }
-
 .banner {
   display: flex;
   padding: 3rem 10% 0;
@@ -99,4 +99,127 @@ header {
     padding: 1rem 2rem;
     line-height: 1.1rem;
   }
+}
+
+/* featured section styles */
+.featured {
+  padding: 5rem 10%;
+}
+@media screen and (max-width: 768px) {
+  .featured {
+    padding: 3rem 1.5rem;
+  }
+}
+
+.featured-content {
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto 3rem;
+}
+@media screen and (max-width: 768px) {
+    .featured-content {
+      max-width: 100%;
+      margin: 0 auto 2rem;
+    }
+  }
+
+.featured-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 3rem;
+  letter-spacing: 0%;
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+    .featured-content h1{
+      font-size: 2rem;
+      line-height: 2.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+.featured-content p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  letter-spacing: 0%;
+  color: rgba(39, 39, 39, 0.6);
+}
+@media screen and (max-width: 768px) {
+    .featured-content p{
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+
+.flowers {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: end;
+}
+@media screen and (max-width: 768px) {
+  .flowers {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}
+
+#feature1 > div{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+#feature2 > div{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+#feature3 > div{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+
+.flower{
+    width: 33%;
+}
+@media screen and (max-width: 768px) {
+    .flower {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+  }
+.flower > div{
+    aspect-ratio: 100 / 115;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .flower > div{
+      margin-bottom: 1rem;
+    }
+  }
+.flower p{
+    color: rgb(39, 39, 39);
+    font-size: 1.5rem;
+font-weight: 700;
+line-height: 2rem;
+letter-spacing: 0%;
+text-align: center;
+text-decoration-line: underline;
+cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .flower p{
+      font-size: 1.1rem;
+      line-height: 1.4rem;
+    }
+  }
+
+#feature2 > div{
+    align-items: center;
+}
+.flower img{
+    width: 70%;
 }
