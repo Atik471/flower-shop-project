@@ -223,3 +223,50 @@ cursor: pointer;
 .flower img{
     width: 70%;
 }
+
+/* support section styles */
+.support{
+    display: flex;
+    margin: 6rem 10%;
+    gap: 5rem;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 5rem 0px;
+}
+@media screen and (max-width: 768px) {
+    .support{
+      flex-direction: column;
+      margin: 1.5rem 10%;
+      padding: 3rem 0px;
+      gap: 4rem;
+    }
+  }
+
+.support div{
+    width: 25%;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .support div{
+      width: 80%;
+      margin: 0 auto
+    }
+  }
+.support img{
+    width: 3.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.support p{
+    color: rgba(39, 39, 39, 0.8);
+font-size: 1.1rem;
+font-weight: 600;
+line-height: 1.6rem;
+}
+@media screen and (max-width: 768px) {
+    .support p{
+      font-size: 0.9rem;
+      line-height: 1.1rem;
+    }
+  }
