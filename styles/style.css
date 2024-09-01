@@ -78,7 +78,7 @@ header {
   }
 }
 
-.primary-btn{
+.primary-btn {
   border-radius: 8px;
   padding: 1.3rem 2.7rem;
   background: rgb(229, 84, 115);
@@ -117,11 +117,11 @@ header {
   margin: 0 auto 3rem;
 }
 @media screen and (max-width: 768px) {
-    .featured-content {
-      max-width: 100%;
-      margin: 0 auto 2rem;
-    }
+  .featured-content {
+    max-width: 100%;
+    margin: 0 auto 2rem;
   }
+}
 
 .featured-content h1 {
   font-size: 2.5rem;
@@ -131,12 +131,12 @@ header {
   margin-bottom: 1.5rem;
 }
 @media screen and (max-width: 768px) {
-    .featured-content h1{
-      font-size: 2rem;
-      line-height: 2.5rem;
-      margin-bottom: 1rem;
-    }
+  .featured-content h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
   }
+}
 
 .featured-content p {
   font-size: 1.1rem;
@@ -146,11 +146,11 @@ header {
   color: rgba(39, 39, 39, 0.6);
 }
 @media screen and (max-width: 768px) {
-    .featured-content p{
-      font-size: 1rem;
-      line-height: 1.5rem;
-    }
+  .featured-content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
+}
 
 .flowers {
   display: flex;
@@ -166,188 +166,306 @@ header {
   }
 }
 
-#feature1 > div{
-    border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+#feature1 > div {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
 }
-#feature2 > div{
-    border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+#feature2 > div {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
 }
-#feature3 > div{
-    border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+#feature3 > div {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
 }
 
-.flower{
-    width: 33%;
+.flower {
+  width: 33%;
 }
 @media screen and (max-width: 768px) {
-    .flower {
-      width: 100%;
-      margin-bottom: 1.5rem;
-    }
+  .flower {
+    width: 100%;
+    margin-bottom: 1.5rem;
   }
-.flower > div{
-    aspect-ratio: 100 / 115;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    margin-bottom: 2rem;
+}
+.flower > div {
+  aspect-ratio: 100 / 115;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 2rem;
 }
 @media screen and (max-width: 768px) {
-    .flower > div{
-      margin-bottom: 1rem;
-    }
+  .flower > div {
+    margin-bottom: 1rem;
   }
-.flower p{
-    color: rgb(39, 39, 39);
-    font-size: 1.5rem;
-font-weight: 700;
-line-height: 2rem;
-letter-spacing: 0%;
-text-align: center;
-text-decoration-line: underline;
-cursor: pointer;
+}
+.flower p {
+  color: rgb(39, 39, 39);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+  cursor: pointer;
 }
 @media screen and (max-width: 768px) {
-    .flower p{
-      font-size: 1.1rem;
-      line-height: 1.4rem;
-    }
+  .flower p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
   }
+}
 
-#feature2 > div{
-    align-items: center;
+#feature2 > div {
+  align-items: center;
 }
-.flower img{
-    width: 70%;
+.flower img {
+  width: 70%;
 }
 
 /* support section styles */
-.support{
-    display: flex;
-    margin: 2.5rem 10%;
-    gap: 5rem;
-    justify-content: center;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    padding: 5rem 0px;
+.support {
+  display: flex;
+  margin: 2.5rem 10%;
+  gap: 5rem;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 5rem 0px;
 }
 @media screen and (max-width: 768px) {
-    .support{
-      flex-direction: column;
-      margin: 1.5rem 10%;
-      padding: 3rem 0px;
-      gap: 4rem;
-    }
+  .support {
+    flex-direction: column;
+    margin: 1.5rem 10%;
+    padding: 3rem 0px;
+    gap: 4rem;
   }
-
-.support div{
-    width: 25%;
-    text-align: center;
-}
-@media screen and (max-width: 768px) {
-    .support div{
-      width: 80%;
-      margin: 0 auto
-    }
-  }
-.support img{
-    width: 3.5rem;
-    margin-bottom: 1.2rem;
 }
 
-.support p{
-    color: rgba(39, 39, 39, 0.8);
-font-size: 1.1rem;
-font-weight: 600;
-line-height: 1.6rem;
+.support div {
+  width: 25%;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
-    .support p{
-      font-size: 0.9rem;
-      line-height: 1.1rem;
-    }
+  .support div {
+    width: 80%;
+    margin: 0 auto;
   }
+}
+.support img {
+  width: 3.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.support p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+}
+@media screen and (max-width: 768px) {
+  .support p {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+}
 
 /* offer section style */
-.offer{
-    display: flex;
-    background: rgba(229, 84, 115, 0.05);
-    padding: 5rem 20%;
-    gap: 5rem;
-    align-items: center;
-    justify-content: center;
-    margin: 6rem 0px;
+.offer {
+  display: flex;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 5rem 20%;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 6rem 0px;
 }
 @media screen and (max-width: 768px) {
-    .offer{
-      flex-direction: column;
-      padding: 2rem 10%;
+  .offer {
+    flex-direction: column;
+    padding: 2rem 10%;
     gap: 4rem;
-    margin: 3rem 0px;
-    }
+    margin: 2rem 0px;
   }
+}
 
-.offer-content{
-    width: 80%;
-    text-align: center;
+.offer-content {
+  width: 80%;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
-    .offer-content{
-      width: 100%;
-    }
+  .offer-content {
+    width: 100%;
   }
+}
 
-.offer-img{
-    width: 30%;
+.offer-img {
+  width: 30%;
 }
 @media screen and (max-width: 768px) {
-    .offer-img{
-      width: 100%;
-    }
-    .offer-img img{
-        display: block;
-        width: 70%;
-        margin: 0 auto;
-    }
+  .offer-img {
+    width: 100%;
   }
-
-.offer-content h1{
-    font-size: 2.5rem;
-font-weight: 800;
-line-height: 3rem;
-letter-spacing: 0%;
-margin-bottom: 2rem;
+  .offer-img img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
 }
-.offer-content span{
-    color: #E55473;
+
+.offer-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 3rem;
+  letter-spacing: 0%;
+  margin-bottom: 2rem;
+}
+.offer-content span {
+  color: #e55473;
 }
 @media screen and (max-width: 768px) {
-    .offer-content h1{
-        font-size: 2rem;
+  .offer-content h1 {
+    font-size: 2rem;
     font-weight: 800;
     line-height: 2.5rem;
     letter-spacing: 0%;
     margin-bottom: 1.5rem;
-    }
+  }
 }
 
-.offer-content p{
-    color: rgba(39, 39, 39, 0.6);
-font-size: 1.1rem;
-font-weight: 400;
-line-height: 1.9rem;
-letter-spacing: 0%;
-margin-bottom: 1.5rem;
+.offer-content p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  letter-spacing: 0%;
+  margin-bottom: 1.5rem;
 }
 @media screen and (max-width: 768px) {
-    .offer-content p{
-        font-size: 1rem;
-font-weight: 400;
-line-height: 1.5rem;
-letter-spacing: 0%;
-margin-bottom: 1.5rem;
-    }
+  .offer-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* instagram section style */
+.instagram {
+  margin: 0 10% 6rem;
+}
+@media screen and (max-width: 768px) {
+  .instagram {
+    margin: 0 1rem 3rem;
+  }
+}
+
+.instagram-content {
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto 3rem;
+}
+@media screen and (max-width: 768px) {
+  .instagram-content {
+    max-width: 100%;
+    margin: 0 auto 2rem;
+  }
+}
+
+.instagram-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 3rem;
+  letter-spacing: 0%;
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  .instagram-content h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.instagram-content p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  letter-spacing: 0%;
+  color: rgba(39, 39, 39, 0.6);
+}
+@media screen and (max-width: 768px) {
+  .instagram-content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+.instagram-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  .instagram-img {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 0;
+  }
+}
+
+.instagram-img div img {
+  width: 100%;
+}
+
+/* footer section style */
+.footer {
+  background: rgb(17, 16, 16);
+  padding: 6rem 0px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 3rem 2rem;
+  }
+}
+.footer h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+.footer span {
+  color: #e55473;
+}
+.footer-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  margin: 0 auto 1.5rem;
+  max-width: 40%;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .footer-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-width: 100%;
+  }
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+@media screen and (max-width: 768px) {
+  .copyright {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
 }
